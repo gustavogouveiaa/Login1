@@ -1,0 +1,130 @@
+/* Reset/Imports  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #171137;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+/* Container Left */
+.container_left {
+  width:50vw;
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container_left h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #9643FF;
+  width: 591px;
+  text-align: center;
+  margin-bottom: 3.9rem;
+}
+
+/* Container Right */
+.container_right {
+  width:50vw;
+  height:100vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.card_form {
+  width: 702px;
+  height: 859px;
+  background-color: #2E008F;
+  border-radius: 56px;
+  margin-right: 54px;
+}
+.login_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title_ {
+  width: 421px;
+  height: 90px;
+  border-radius: 30px;
+  background-color: #171137;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 55px 0 133px 0;
+}
+.title_ h1 {
+  color: #fff;
+  font-size: 48px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  width: 532px;
+  height: 62px;
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+.input_camp {
+  outline: none;
+  width: 500px;
+  height: 62px;
+  border-radius: 20px;
+  font-size: 24px;
+  color: #000;
+}
+.label_user {
+  margin-bottom: 59px;
+}
+.label_pass {
+  margin-bottom: 80px;
+}
+.btn_entrar {
+  width: 291px;
+  height: 90px;
+  background-color: #171137;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 47px;
+}
+.btn_entrar:hover {
+  box-shadow: 0px 0px 30px #000000;
+  /* width: 300px;
+  height: 100px;
+  background-color: #221a52; */
+  transition: all .5s;
+}
+
+
+/* Nova conta */
+p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+p a {
+  color: #9643FF;
+  text-decoration: none;
+}
+p a:hover {
+  color: #791af5;
+  text-decoration: underline;
+  transition: all .5s;
+}
